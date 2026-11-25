@@ -1,0 +1,6 @@
+@DigikonnectApplication_HostAddress = http://localhost:5000
+
+GET {{DigikonnectApplication_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
