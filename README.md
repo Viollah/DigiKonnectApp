@@ -3,40 +3,35 @@ cd DigikonnectApp
 
 Backend – ASP.NET Core Web API
 cd DigikonnectApplication
-# Restore NuGet packages
+Restore NuGet packages
 dotnet restore
-# Check existing migrations
+Check existing migrations
 dotnet ef migrations list
-# Apply database migrations
+Apply database migrations
 dotnet ef database update
-# Build the application
+Build the application
 dotnet build
-# Run the backend API
+Run the backend API
 dotnet run
 
 Test API endpoints : https://localhost:7226/swagger
 
 Frontend – React + Vite
 cd frontend
-# Install dependencies
+Install dependencies
 npm install
-# Start the React development server
+Start the React development server
 npm run dev
 Open the application: http://localhost:5173
 
-# Build the application for production
-npm run build
-# Run ESLint checks
-npm run lint
 Database migration
-# Install EF Core CLI tool (if not installed)
+Install EF Core CLI tool (if not installed)
 dotnet tool install --global dotnet-ef
-# Create a new migration
+Create a new migration
 dotnet ef migrations add MigrationName
-# Apply database changes
+Apply database changes
 dotnet ef database update
-# List migrations
+List migrations
 dotnet ef migrations list
 
-Admin test login: admin@digikonect.local | AdminSecure123!
 Technician registers before login
