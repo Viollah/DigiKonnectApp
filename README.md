@@ -14,7 +14,8 @@ dotnet build
 - Run the backend API
 dotnet run
 
-Test API endpoints : https://localhost:7226/swagger
+Test API endpoints : https://localhost:7226/swagger 
+swagger version: dotnet add package Swashbuckle.AspNetCore --version 6.6.2
 
 Frontend – React + Vite
 cd frontend
